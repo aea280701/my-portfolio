@@ -166,7 +166,7 @@ h2{
 }
 
 .text a{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 0.5rem;
     padding: 2rem 0;
@@ -174,7 +174,7 @@ h2{
 
 a span{
     font-size: 5rem;
-    transform: translateY(0.4rem);
+    transform: translateY(0.45rem);
     margin-left: 1rem;
     font-weight: 400;
 }
