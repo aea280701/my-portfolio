@@ -47,7 +47,7 @@ a{
 }
 
 .nav-links{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
 }
 
 .links-container{
@@ -78,7 +78,7 @@ h1{
 }
 
 h3{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -159,7 +159,7 @@ h2{
 
 .text p{
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 5rem;
     text-align: center;
     margin: 1.5rem 0 0;
@@ -174,7 +174,7 @@ h2{
 
 a span{
     font-size: 5rem;
-    transform: translateY(0.8rem);
+    transform: translateY(0.4rem);
     margin-left: 1rem;
     font-weight: 400;
 }
