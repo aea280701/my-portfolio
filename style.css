@@ -1,0 +1,322 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-family: nunito, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+span{
+    display: inline-block;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.frame{
+    margin: 0 3rem;
+}
+
+.container{
+    max-width: 112rem;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+    padding-top: 4rem;
+}
+
+.logo{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.nav-links{
+    font-size: 2.5rem;
+}
+
+.links-container{
+    display: flex;
+    align-items: center;
+}
+
+.contact-me-button{
+    padding: 1rem 1.4rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-left: 3.3rem;
+}
+
+.hero{
+    padding: 17.6rem 0;
+}
+
+h1{
+    font-size: 7rem;
+    line-height: 7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 88.99rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.hero h3{
+    padding-top: 3rem;
+}
+
+.skills-container-one{
+    display: flex;
+    justify-content: center;
+}
+.skills-container-two{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container-one .skill{
+    width: 21rem;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.skills-container-two .skill{
+    width: 17rem;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+}
+
+.my-work{
+    padding: 15.6rem 0;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.ex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.img{
+    max-width: 50%;
+    flex-shrink: 0;
+}
+
+.img img{
+    width: 100%;
+}
+
+.text{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.text p{
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    margin: 1.5rem 0 0;
+}
+
+.text a{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 0.5rem;
+    padding-top: 2rem;
+}
+
+a span{
+    font-size: 5rem;
+    transform: translateY(0.8rem);
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+.footer{
+    padding: 25rem 0 35rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer a{
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: 500;
+    padding-bottom: 1.4rem;
+}
+
+.footer h2{
+        padding-bottom: 2rem;
+}
+
+.copyright{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 3rem;
+    border: none;
+}
+
+a:hover{
+    transform: scale(1.05)
+}
+
+.hide-bottom{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.hide-left{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.hide-right{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1.5s;
+}
+
+.show-bottom{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.show-left{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.show-right{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    html{
+        font-size: 8px;
+    }
+}
+
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px){
+    html{
+        font-size: 6px;
+    }
+
+    .ex{
+        flex-direction: column;
+    }
+
+    .img{
+        max-width: 80%;
+    }
+
+    .text{
+        max-width: 80%;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px){
+    html{
+        font-size: 4.8px;
+    }
+
+    .frame{
+        margin: 0;
+    }
+
+    .ex{
+        flex-direction: column;
+    }
+
+    .img{
+        max-width: 100%;
+    }
+
+    .text{
+        max-width: 100%;
+    }
+
+    h1{
+        max-width: 312px;
+    }
+
+    .nav{
+        padding: 2rem;
+    }
+    
+}
