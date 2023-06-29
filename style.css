@@ -255,6 +255,44 @@ a:hover{
 
 
 
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project .img{
+    max-width: 80%;
+    padding-bottom: 5rem;
+}
+
+.project-description p{
+    width: 100%;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 5rem 0 ;
+}
+
+.project-description h1{
+    padding-top: 15.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -289,6 +327,7 @@ a:hover{
     }
 }
 
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px){
     html{
@@ -322,4 +361,13 @@ a:hover{
     .copyright{
         padding-left: 2rem;
     }
+    .project .img{
+        max-width: 100%;
+    }
 }
+
+
+
+
+
+
